@@ -1,0 +1,182 @@
+.checkout-main_container {
+    margin: 40px auto;
+    padding:0px 10px;
+   
+}
+.order-payment-section-container {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.order-payment-section {
+    border: solid 1px rgba(128, 128, 128, 0.521);
+    height: fit-content;
+    padding: 0px;
+    border-radius: 5px;
+}
+
+.order-payment-section h1 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 28px;
+    font-weight: 600;
+    text-align: center;
+    
+    background-color:  #29aae1;
+    padding: 10px 5px;
+    margin-bottom: 0px;
+    color: white;
+    border-radius: 3px 3px 0px 0px;
+}
+
+.checkout-product-container {
+    border-bottom: solid 1px gray;
+    padding: 30px 10px;
+ 
+    
+}
+
+.checkout-procduct-name {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.checkout-procduct-name i {
+    font-size: 20px;
+  
+    
+
+}
+.checkout-procduct-name i:hover {
+    color: red;
+    
+
+}
+
+.checkout-procduct-qty-price {
+    display: flex;
+    justify-content: space-between;
+}
+
+.checkout-price-div {
+    display: flex;
+    justify-content: space-between;
+    padding: 8px;
+   
+    background-color: #f3f2f2;
+}
+
+.shipping-div {
+    display: flex;
+    justify-content: space-between;
+    padding: 8px;
+    background-color: #f3f2f2;
+    border-top: solid 1px gray;
+}
+
+.checkout-total-price-div {
+    display: flex;
+    justify-content: space-between;
+    background-color: #e9e7e7;
+    padding: 10px;
+    background-color:  #29aae1;
+    color: white;
+    border-radius:0px 0px 3px 3px ;
+}
+
+
+.pay-ship-heading-container h1{
+    background-color: #ffffffbb;
+    color: rgb(0, 0, 0);
+    font-family: 'Raleway', sans-serif;
+    font-size: 28px;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.billing-h h4{
+    background-color: #29aae1;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+   border-radius: 3px 3px 0px 0px;
+    font-weight: 600;
+    padding: 15px 15px;
+   
+}
+.shipping-h h4{
+    background-color: #29aae1;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    
+    font-weight: 600;
+    padding: 15px 15px;
+}
+.payment-detail-h h4{
+    background-color: #29aae1;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+   
+    font-weight: 600;
+    padding: 15px 15px;
+}
+.checkout-pay-ship-form-container{
+   
+}
+.checkout-country{
+    padding: 20px;
+}
+.checkout-country span{
+   font-weight: 700;
+}
+.checkout-all-input-container{
+    padding: 3px 20px;
+}
+.radio-send-me-btn{
+    padding-left: 45px;
+}
+.card-num-exp-date-container{
+    width: 48%;
+}
+
+.shipping-billing-yes-no-cobtainer{
+display: flex;
+gap: 40px;
+margin: 15px 0px;
+align-items: center;
+}
+.shipping-billing-yes-no-cobtainer p{
+   margin-bottom: 0px;
+    }
+.secure-payment-container{
+    display: flex;
+    gap: 5px;
+    margin: 20px 0px;
+}
+.secure-payment-container span{
+   color: #29aae1;
+   font-size: 30px;
+}
+.order-place-btn-container button{
+    color: white;
+    background: #E4552E;
+    font-weight: bold;
+    padding: 15px 70px;
+    font-size: 22px;
+    margin-top: 10px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    border: none;
+    margin-bottom: 30px;
+}
+
+@media only screen and (max-width:767px) {
+   
+    .order-payment-section{
+        margin-top: 30px;
+    }
+    .tab-mobile-padding{
+        padding: 0px 10px;
+    }
+}

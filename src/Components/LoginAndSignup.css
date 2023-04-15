@@ -1,0 +1,63 @@
+.focus-none input:focus {
+    box-shadow: none;
+}
+
+.login-container {
+    margin-bottom: 20px;
+}
+
+.signup-container {
+    margin-bottom: 20px;
+}
+
+.login-h {
+    font-family: 'Raleway', sans-serif;
+    font-size: 36px;
+    font-weight: 600;
+    margin: 20px 0px;
+}
+
+.signup-h {
+    font-family: 'Raleway', sans-serif;
+    font-size: 36px;
+    font-weight: 600;
+    margin: 20px 0px;
+}
+
+.login-btn {
+    padding: 5px 22px;
+    background-color: #29aae1;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.signup-btn {
+    padding: 5px 22px;
+    background-color: #29aae1;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 24px;
+    font-weight: 600;
+}
+.border-left{
+    border-left: solid 2px gray;
+}
+
+@media only screen and (max-width:767px) {
+    .login-btn-container {
+        display: flex;
+        justify-content: center;
+    }
+
+    .signup-btn-container {
+        display: flex;
+        justify-content: center;
+    }
+    .border-left{
+       border: none;
+    }
+}

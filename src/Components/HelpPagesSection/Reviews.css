@@ -1,0 +1,15 @@
+.Reviews-page-heading{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    font-size: 32px;
+}
+.reviews-main-container{
+    margin: 50px auto;
+}
+.reviews-main-container h5{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+}
+.mb-0{
+    margin: 20px 0px;
+}

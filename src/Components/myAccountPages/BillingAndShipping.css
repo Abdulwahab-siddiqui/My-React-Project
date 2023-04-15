@@ -1,0 +1,161 @@
+ /* {///////////////////////////////////////////////// BillingAndShipping ////////////////////////////////////////} */
+
+ .Billing-Addresses-container {
+   display: flex;
+   align-items: center;
+   border-bottom: solid 1px rgba(128, 128, 128, 0.684);
+ }
+
+ .Billing-Addresses-container h1 {
+   font-family: 'Raleway', sans-serif;
+   font-weight: 600;
+   font-size: 32px;
+   margin: 20px 0px;
+ }
+
+ .Shipping-Addresses-container {
+   display: flex;
+   align-items: center;
+   border-bottom: solid 1px rgba(128, 128, 128, 0.684);
+ }
+
+ .Shipping-Addresses-container h1 {
+   font-family: 'Raleway', sans-serif;
+   font-weight: 600;
+   font-size: 32px;
+   margin: 20px 0px;
+ }
+
+ .Credit-Cards-container {
+   display: flex;
+   align-items: center;
+   border-bottom: solid 1px rgba(128, 128, 128, 0.684);
+ }
+
+ .Credit-Cards-container h1 {
+   font-family: 'Raleway', sans-serif;
+   font-weight: 600;
+   font-size: 32px;
+   margin: 20px 0px;
+ }
+
+ /* {/////////////////////////////////////////////////Billing Addresses modal ////////////////////////////////////////} */
+ .BillingAndShipping-btn {
+   background-color: transparent;
+   border: solid 1px #3390ff;
+   padding: 1px 8px;
+   border-radius: 5px;
+   color: #3390ff;
+   font-family: 'Open Sans', sans-serif;
+   font-weight: 400;
+   margin-left: 15px;
+ }
+
+ .BillingAndShipping-btn:hover {
+
+   background-color: #338fff4f;
+ }
+
+ .modal-ku {
+   width: 750px;
+   margin: auto;
+ }
+
+
+ .modal-header {
+   display: flex;
+   justify-content: space-between;
+   background-color: #487387;
+   color: white;
+   font-family: 'Raleway', sans-serif;
+   font-weight: 600;
+
+ }
+
+ .form-group {
+   margin-bottom: 20px;
+ }
+
+ .form-group input {
+   padding: 8px 8px;
+ }
+
+ .form-group input:focus {
+   box-shadow: none;
+ }
+
+ .city-dorp-container {
+   display: flex;
+   justify-content: space-between;
+ }
+
+ .zip-phone-container {
+   display: flex;
+   justify-content: space-between;
+ }
+
+ .zip-phone-container input {
+   width: 48%;
+ }
+
+ .modal-addAdress-btn {
+   background-color: #3390ff;
+   color: white;
+ }
+
+ .modal-header-close-btn {
+   background-color: transparent;
+   border: none;
+ }
+
+ .modal-header-close-btn span {
+   font-size: 35px;
+   color: white;
+ }
+
+
+
+ @media only screen and (max-width:768px) {
+   .Billing-Addresses-main_container {
+     padding: 0px 0px;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     margin-top: 20px;
+   }
+
+ }
+
+ @media only screen and (max-width:560px) {
+  .Billing-Addresses-container{
+    display: flex;
+    flex-direction: column;
+  }
+  .Billing-Addresses-container h1{
+   font-size: 28px;
+  }
+
+  .Shipping-Addresses-container{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .Shipping-Addresses-container h1{
+    font-size: 28px;
+   }
+
+  .Credit-Cards-container{
+    display: flex;
+    flex-direction: column;
+  }
+  .Credit-Cards-container h1{
+    font-size: 28px;
+   }
+
+
+ }
+
+
+
+
+ /* {/////////////////////////////////////////////////Shipping Addresses modal ////////////////////////////////////////} */

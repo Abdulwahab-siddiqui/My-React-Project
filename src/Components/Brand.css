@@ -1,0 +1,368 @@
+.brand-heading {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    font-size: 32px;
+}
+
+.bigFilter {
+    background: linear-gradient(to bottom, #378ecb 0%, #33bce5 100%);
+    border-radius: 10px;
+    width: 94%;
+    height: 500px;
+    /* margin-left: 5%; */
+}
+
+.des-heading {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    margin-bottom: 0px;
+    padding: 5px;
+}
+
+.des-p {
+    display: flex;
+    margin-top: 8px;
+}
+
+.des-p p {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.step-h {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    margin-bottom: 0px;
+    padding: 5px;
+    font-size: 18px;
+}
+
+
+/* /////////////////description///////////////// */
+
+
+.description-container {
+    border: solid 1px #80808040;
+    border-radius: 10px;
+    margin-top: 30px;
+    width: 94%;
+}
+
+@media only screen and (max-width:768px) {
+    .description-container {
+
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .bigFilter {
+
+        width: 100%;
+
+    }
+}
+@media only screen and (max-width:600px) {
+    .bigFilter {
+      
+        height: 400px;
+       
+    }
+ }
+
+
+/* ///////////////////  quality//////////////// */
+.quality-h {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    margin-left: 5px;
+}
+
+.quality-p_container {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 0x !important;
+    
+}
+.quality-p_container-active{
+    background-color: rgba(128, 128, 128, 0.126);
+    /* border: solid 1px gray; */
+    color: #0e6bbc;
+    border-radius: 5px;
+
+}
+
+.quality-p_container p {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 500;
+    margin: 10px;
+    width: 100px;
+    font-size: 18px;
+}
+
+@media only screen and (max-width:399px) {
+    .quality-p_container p {
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 500;
+        margin: 10px;
+        width: 100px;
+        font-size: 15px;
+    }
+}
+
+/* .quality-p_container:hover {
+    color: #4389c7;
+
+} */
+
+.save {
+    color: #4389c7;
+}
+
+/* {??????????????         step 1      //////////////////} */
+
+.step1-img-container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 25px;
+}
+.step1-img:hover{
+cursor: pointer;
+}
+
+.standard-img-container {
+
+    display: flex;
+    flex-direction: column-reverse;
+    padding: 15px 2px;
+
+}
+
+.premium-img-container {
+
+    display: flex;
+    flex-direction: column-reverse;
+    padding: 15px 2px;
+
+}
+
+
+.prime-img-container {
+
+    display: flex;
+    flex-direction: column-reverse;
+    padding: 15px 3px;
+
+}
+
+.step1-img-active {
+    outline: solid 3px #29aae1;
+    border-radius: 4px;
+}
+
+/* .form-check .st-pre-pri-radio {
+    float: left;
+    margin-left: 45%;
+}
+
+.form-check-input {
+    --bs-form-check-bg: var(--bs-form-control-bg);
+    width: 1em;
+    height: 1em;
+    margin-top: 0.25em;
+    vertical-align: top;
+    background-color: var(--bs-form-check-bg);
+    background-image: var(--bs-form-check-bg-image);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    border: var(--bs-border-width) solid #6c6d6f;
+    appearance: none;
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+} */
+
+@media only screen and (max-width:837px) {
+    .step1-img-container img {
+        height: 125px;
+        width: 110px;
+    }
+}
+
+@media only screen and (max-width:767px) {
+    .step1-img-container img {
+        height: 160px;
+        width: 150px;
+    }
+}
+
+@media only screen and (max-width:433px) {
+    .step1-img-container img {
+        height: 125px;
+        width: 110px;
+    }
+}
+
+/* {??????????????         step 2      //////////////////} */
+
+.increment-btn-main_container {
+    margin: 20px 20px;
+    display: flex;
+    align-items: center;
+}
+
+.increment-btn-container {
+    display: flex;
+}
+
+.increment-btn-container button {
+    border: none;
+    width: 50px;
+    padding: 10px;
+}
+
+.increment-btn-container input {
+    width: 65px;
+    border: none;
+    padding: 10px 0px;
+    /* padding-left: 23px; */
+    background-color: #f0f0f0;
+}
+
+
+
+.fliter-quality-container {
+    background-color: #fafafa;
+    padding: 4px 10px;
+    border-radius: 10px;
+    width: 97%;
+    margin: 10px auto;
+    display: none;
+}
+.discount-active{
+display: block;
+}
+.increment-btn-container input[type=number] { text-align:center }
+
+@media only screen and (max-width:1284px) {
+    .increment-btn-main_container p {
+        margin: 10px 0px !important;
+        margin-left: auto !important;
+    }
+}
+
+@media only screen and (max-width:1018px) {
+    .increment-btn-main_container {
+        display: block;
+    }
+}
+
+@media only screen and (max-width:767px) {
+    .increment-btn-main_container {
+        display: flex;
+    }
+}
+
+@media only screen and (max-width:510px) {
+    .increment-btn-main_container {
+        display: block;
+    }
+}
+
+/* {??????????????         step 3      //////////////////} */
+
+.deliver-lab {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.service:focus {
+    border: none;
+}
+
+.auto-delivar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+@media only screen and (max-width:597px) {
+    .auto-delivar {
+        display: block;
+
+    }
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+/* {??????????????         step 4      //////////////////} */
+
+
+.cut-h {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* {///////////////////////Merv Ratings///////////////////////////} */
+
+.rating-h-p_container h1 {
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    margin-top: 50px;
+    font-size: 32px;
+}
+
+.rating-h-p_container p {
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    margin: 30px 0px;
+}
+
+.ratingCard {
+    width: 95%;
+
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 10px;
+    box-shadow: 2px 2px 7px #80808057, -1px -3px 7px #ffffff;
+    padding: 0px 10px;
+    margin: 5px auto;
+}
+
+.ratingCard img {
+    /* margin-left: 35%; */
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.rating-p {
+    display: flex;
+}
+
+.rating-p p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+
+

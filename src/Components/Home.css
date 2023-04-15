@@ -1,0 +1,393 @@
+ /* {//////////////////////////////////////////////////  slider //////////////////////////////////////////////////} */
+ 
+ .slider-main_container{
+    display: flex;
+    height: 500px;
+ }
+ .slider-h-p-b_container {
+     /* height: 500px; */
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: end;
+     /* border: solid 1px red; */
+     width: 40%!important;
+ }
+
+ .slider-img-container {
+     /* height: 500px; */
+     display: flex;
+     position: relative;
+     /* border: solid 1px red; */
+     width: 60%!important;
+ }
+
+  @media only screen and (max-width:1046px) {
+   
+    .slider-h-p-b_container {
+        /* height: 500px; */
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        /* border: solid 1px rgb(2, 1, 1); */
+        width: 100%!important;
+        background-image: url(../assets/images/Rectangle\ 106.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+    .h{
+        display: flex;
+        /* justify-content: center;
+        align-items: center; */
+        flex-direction: column;
+        align-items: center; 
+        /* border: solid 1px red; */
+        width: 100%;
+    }
+    .h h1{
+        text-align: center;
+        word-spacing: 100px;
+    }
+    .h p{
+        text-align: center;
+        /* word-spacing: 100px; */
+    }
+    .h button{
+       margin-right: 0%!important;
+    }
+    .slider-img-container {
+        /* height: 500px; */
+        /* display: flex;
+        position: relative;
+        border: solid 1px red;
+        width: 60%!important; */
+        display: none;
+    }
+}
+
+@media only screen and (max-width:535px) {
+    .h h1{
+        font-size: 36px!important;
+    }
+    .h p{
+        font-size: 16px!important;
+    }
+    .h button{
+  
+       padding: 10px 30px!important;
+    }
+}
+@media only screen and (max-width:698px) {
+    .p{
+margin-right: 5px!important;
+    }
+    .n{
+        margin-left: 5px!important;
+    }
+}
+
+@media only screen and (max-width:600px) {
+    .slider-main_container{
+        display: flex;
+        height: 400px;
+     }
+}
+@media only screen and (max-width:450px) {
+    .slider-main_container{
+        display: flex;
+        height: 350px;
+     }
+}
+
+ .slider-h-p-b_container h1 {
+     font-family: 'Raleway', sans-serif;
+     font-size: 54px;
+     font-weight: 700;
+ }
+
+ .slider-h-p-b_container p {
+     font-size: 22px;
+     font-weight: 400;
+     font-family: 'Open Sans', sans-serif;
+ }
+
+ .slider-h-p-b_container button {
+     font-family: 'Open Sans', sans-serif;
+     font-size: 18px;
+     font-weight: 600;
+ }
+
+ .slider-h-p-b-container {}
+
+ .slider-img-container img {}
+
+ /* @media only screen and (max-width:1100px) {
+    .slider-img-container{
+   display: none;
+    }
+
+} */
+
+
+
+ /* {//////////////////////////////////////////////////  shop by size //////////////////////////////////////////////////} */
+
+
+
+ /* {/* //////////////////////////////////////////////////  shop by company //////////////////////////////////////////////////}  */
+
+ .shop-by-company-bg_img {
+     background-image: url(../assets/images/Rectangle\ 105.png);
+     /* border: solid 1px red; */
+     /* height: 1000px; */
+     background-repeat: no-repeat;
+     background-position: center;
+     background-size: cover;
+     display: flex;
+     flex-direction: column;
+     justify-content: space-between;
+     /* width: 101%; */
+     padding: 0;
+
+ }
+
+ .shop-by-company-bg_img h1 {
+     color: white;
+     width: 100%;
+     text-align: center;
+     font-family: 'Raleway', sans-serif;
+     font-size: 36px;
+     font-weight: 600;
+ }
+
+
+ .companyCard-container {
+     display: flex;
+     justify-content: space-between;
+     margin: 0px auto;
+     flex-wrap: wrap;
+     /* border: solid 1px white; */
+ }
+
+ .companyCard {
+     /* border: yellow 1px solid; */
+     width: 23%;
+     background-color: white;
+     border-radius: 10px;
+     height: 160px;
+     padding: 20px 10px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+
+     margin-bottom: 15px;
+
+ }
+
+ .explore-btn-container {
+     display: flex;
+     justify-content: center;
+ }
+
+ .explore-btn-container button {
+     font-family: 'Open Sans', sans-serif;
+
+     font-weight: 600;
+ }
+
+ @media only screen and (max-width:1170px) {
+     .companyCard {
+
+         width: 30%;
+
+         background-color: white;
+         border-radius: 10px;
+         height: 120px;
+         padding: 20px 10px;
+         display: flex;
+         justify-content: center;
+         align-items: center;
+
+         margin-bottom: 15px;
+
+     }
+ }
+
+ @media only screen and (max-width:884px) {
+     .companyCard {
+
+         width: 45%;
+
+         background-color: white;
+         border-radius: 10px;
+         height: 80px;
+         padding: 20px 10px;
+         display: flex;
+         justify-content: space-evenly;
+         align-items: center;
+
+         margin-bottom: 15px;
+
+     }
+
+     .companyCard img {
+
+         height: 70px;
+
+     }
+
+     .companyCard-container {
+         display: flex;
+         justify-content: space-evenly;
+
+     }
+
+ }
+
+ @media only screen and (max-width:661px) {
+
+     .companyCard img {
+
+         height: 70px;
+         width: 70%;
+
+     }
+
+ }
+
+ /* {/* ////////////////////////////////////////////////// why choose us //////////////////////////////////////////////////} */
+
+ .why-choose-h-p_container h1 {
+     text-align: center;
+     margin-top: 80px;
+     font-family: 'Raleway', sans-serif;
+     font-weight: 600;
+     font-size: 36px;
+ }
+
+ .why-choose-h-p_container p {
+     text-align: center;
+     margin: 30px 0px;
+     font-family: 'Open Sans', sans-serif;
+     font-size: 18px;
+     font-weight: 400;
+ }
+
+
+ .why-choose-card-container {
+     display: flex;
+     justify-content: space-between;
+     margin: auto;
+     /* border: solid 2px rgb(19, 49, 7); */
+     margin-bottom: 50px;
+     flex-wrap: wrap;
+ }
+
+ .why-choose-card {
+     width: 30%;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     /* border: solid 1px red; */
+ }
+
+ .why-choose-card h4 {
+     text-align: center;
+     margin: 20px 0px;
+     font-family: 'Raleway', sans-serif;
+     font-weight: 600;
+     font-size: 28px;
+
+ }
+
+ .why-choose-card img {
+     /* margin-left: 38%; */
+     margin-bottom: 20px;
+ }
+
+ .why-choose-card p {
+     text-align: center;
+     margin-bottom: 20px;
+     font-family: 'Open Sans', sans-serif;
+     font-size: 18px;
+     font-weight: 400;
+
+ }
+
+ @media only screen and (max-width:763px) {
+     .why-choose-card {
+         width: 80%;
+         /* border: solid 1px red; */
+         margin: auto;
+         margin-bottom: 10px;
+     }
+     /* .why-choose-card img {
+        margin-left: 39%;
+        
+    } */
+ }
+
+ /* {/* ////////////////////////////////////////////////// how to  choose //////////////////////////////////////////////////} */
+ .how-choose-h-p_container h1 {
+     font-family: 'Raleway', sans-serif;
+     font-weight: 600;
+     font-size: 36px;
+ }
+
+ .how-choose-h-p_container p {
+     font-family: 'Open Sans', sans-serif;
+     font-size: 18px;
+     font-weight: 400;
+     text-align: center;
+     margin: 30px 0px;
+ }
+ .how-to-counter-container{
+    display: flex;
+    gap: 10px;
+ }
+ .how-to-counter-container i{
+   font-size: 40px;
+   color: #056fb0;
+ }
+ .how-to-counter-container h3{
+    display: flex;
+    align-items: center;
+    margin-bottom: 0px;
+  }
+ 
+.to-make-first-p{
+    font-family: 'Open Sans', sans-serif;
+     font-size: 18px;
+     font-weight: 400;
+     margin-bottom: 30px;
+}
+ .to-make-p {
+     font-family: 'Open Sans', sans-serif;
+     font-size: 18px;
+     font-weight: 400;
+     margin-bottom: 30px;
+     margin-left: 50px;
+ }
+
+ .to-make-h {
+     font-family: 'Raleway', sans-serif;
+     font-weight: 600;
+ }
+
+ .group-img img {
+     height: 540px;
+     width: 100%;
+
+ }
+
+ @media only screen and (max-width:600px) {
+    .group-img img {
+        height: 400px;
+        width: 100%;
+   
+    }
+ }
+
+ /* {/* ////////////////////////////////////////////////// Clients //////////////////////////////////////////////////} */

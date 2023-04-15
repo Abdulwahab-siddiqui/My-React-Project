@@ -1,0 +1,32 @@
+.terms-service-heading{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    font-size: 32px;
+}
+.terms-service-container{
+
+    /* border: solid 1px black; */
+    margin: 30px auto;
+   
+
+}
+
+.terms-service-container h5{
+
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    margin-bottom: 20px;
+   
+
+}
+
+.terms-service-container p{
+
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    /* border-bottom: 2px gray solid; */
+    padding-bottom: 20px ;
+   
+
+}

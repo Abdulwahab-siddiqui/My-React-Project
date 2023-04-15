@@ -1,0 +1,12 @@
+.faqpage-heading{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    font-size: 32px;
+}
+.faqpage-main-container{
+    /* border: solid 1px black; */
+margin: 30px auto;
+}
+.accordion-btn{
+    padding: 30px 20px;
+}
