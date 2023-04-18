@@ -128,8 +128,7 @@
      }
  }
 
-
- @media only screen and (max-width:451px) {
+ @media only screen and (max-width:600px) {
     .shopCard {
         /* border: solid 1px red; */
         padding: 10px;
@@ -143,18 +142,68 @@
     }
     .shopcard2 img{
         width: 93%;
-        height: 77%;
-        margin-left: 22px;
+        height: 76.9%;
+        margin-left: 25px;
     }
-    .shopcard3 img{
-        width: 100%;
-        height: 77%;
+     .shopcard3 img{
+       width: 100%;
+        height: 76.9%;
         margin-left: 25px;
     }
 
     .shopcard4 img{
         width: 100%;
-        height: 77%;
+        height: 76.9%;
+   
+    }
+     
+
+  
+}
+ @media only screen and (max-width:451px) {
+    .shopCard {
+        /* border: solid 1px red; */
+        padding: 10px;
+        width: 45%;
+      
+    }
+    .shopcard1 {
+        height: 280px;
+    }
+
+    .shopcard1 img{
+        width: 100%;
+        height: 78%;
+        margin-left: 10px;
+    }
+
+    .shopcard2 {
+        height: 280px;
+    }
+
+    .shopcard2 img{
+        width: 93%;
+        height: 75.4%;
+        margin-left: 22px;
+    }
+
+    .shopcard3 {
+        height: 280px;
+    }
+
+    .shopcard3 img{
+        width: 100%;
+        height: 75.4%;
+        margin-left: 25px;
+    }
+
+    .shopcard4 {
+        height: 280px;
+    }
+
+    .shopcard4 img{
+        width: 100%;
+        height: 75.4%;
         /* margin-left: 35px; */
     }
      

@@ -11,6 +11,7 @@
    font-weight: 600;
    font-size: 32px;
    margin: 20px 0px;
+   width: 300px;
  }
 
  .Shipping-Addresses-container {
@@ -24,6 +25,7 @@
    font-weight: 600;
    font-size: 32px;
    margin: 20px 0px;
+   width: 300px;
  }
 
  .Credit-Cards-container {
@@ -37,6 +39,7 @@
    font-weight: 600;
    font-size: 32px;
    margin: 20px 0px;
+   width: 300px;
  }
 
  /* {/////////////////////////////////////////////////Billing Addresses modal ////////////////////////////////////////} */
@@ -151,7 +154,9 @@
   .Credit-Cards-container h1{
     font-size: 28px;
    }
-
+ .BillingAndShipping-btn {
+  margin-bottom: 20px;
+ }
 
  }
 

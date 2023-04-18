@@ -182,7 +182,7 @@ cursor: pointer;
     print-color-adjust: exact;
 } */
 
-@media only screen and (max-width:837px) {
+@media only screen and (max-width:866px) {
     .step1-img-container img {
         height: 125px;
         width: 110px;
@@ -196,10 +196,23 @@ cursor: pointer;
     }
 }
 
+@media only screen and (max-width:531px) {
+    .step1-img-container img {
+        height: 140px;
+        width: 120px;
+    }
+}
+
 @media only screen and (max-width:433px) {
     .step1-img-container img {
         height: 125px;
         width: 110px;
+    }
+}
+@media only screen and (max-width:370px) {
+    .step1-img-container img {
+        height: 125px;
+        width: 100px;
     }
 }
 
@@ -345,7 +358,7 @@ input::-webkit-inner-spin-button {
     border-radius: 10px;
     box-shadow: 2px 2px 7px #80808057, -1px -3px 7px #ffffff;
     padding: 0px 10px;
-    margin: 5px auto;
+    margin: 10px auto;
 }
 
 .ratingCard img {

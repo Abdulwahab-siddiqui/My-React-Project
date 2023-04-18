@@ -14,7 +14,7 @@ const LoginAndSignup = () => {
                         <div className='row'>
 
 
-                            <div className='col-md-6' >
+                            <div className='col-md-6 col-11 login-main-container'>
                                 <h1 className='login-h'>Log In</h1>
                                 <form>
                                     <div className="form-group login-container focus-none">
@@ -28,13 +28,12 @@ const LoginAndSignup = () => {
                                     <div className='login-btn-container'>
                                         <button className='login-btn' type='submit'>Log in</button>
                                     </div>
-
                                 </form>
 
                             </div>
 
 
-                            <div className='col-md-6 border-left'  >
+                            <div className='col-md-6 col-11 border-left singup-main-container'  >
 
                                 <h1 className='signup-h'> Sign Up</h1>
 
@@ -59,7 +58,7 @@ const LoginAndSignup = () => {
                                         <input type="text" className="form-control" placeholder="Last Name" />
                                     </div>
 
-                                    <div  className='signup-btn-container'>
+                                    <div className='signup-btn-container'>
                                         <button className='signup-btn' type='submit' >Sign Up</button>
                                     </div>
 
@@ -73,10 +72,10 @@ const LoginAndSignup = () => {
                 </div>
             </div>
 
-              {/* ///////////////////////////////////////////////////// footer ???????????///////////////////////////  */}
+            {/* ///////////////////////////////////////////////////// footer ???????????///////////////////////////  */}
 
 
-              <Footer />
+            <Footer />
         </>
     )
 }

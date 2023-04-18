@@ -207,3 +207,25 @@ width: 100px;
        text-align: center;
 }
 }
+
+@media only screen and (max-width:600px) {
+    .bg-thrid-about img {
+        height: 400px;
+        width: 100%;
+   
+    }
+    .bg-thrid-about  {
+        height: 400px;
+        width: 100%;
+   
+    }
+
+    .bg-fourth-about img{
+        height: 400px;
+        width: 100%;
+    }
+    .bg-fourth-about{
+        height: 400px;
+        width: 100%;
+    }
+ }

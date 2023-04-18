@@ -10,11 +10,19 @@
     margin-bottom: 20px;
 }
 
+.login-main-container {
+    margin: 0px auto;
+}
+
 .login-h {
     font-family: 'Raleway', sans-serif;
     font-size: 36px;
     font-weight: 600;
     margin: 20px 0px;
+}
+
+.singup-main-container {
+    margin: 0px auto;
 }
 
 .signup-h {
@@ -43,7 +51,8 @@
     font-size: 24px;
     font-weight: 600;
 }
-.border-left{
+
+.border-left {
     border-left: solid 2px gray;
 }
 
@@ -57,7 +66,32 @@
         display: flex;
         justify-content: center;
     }
-    .border-left{
-       border: none;
+
+    .border-left {
+        border: none;
+    }
+
+    .singup-main-container {
+        margin: 0px auto;
+        margin-top: 80px;
+    }
+
+    .login-main-container {
+        border-bottom: solid 2px gray;
+        padding-bottom: 80px;
+    }
+    .login-btn {
+        padding: 5px 30%;
+       
+        
+    }
+    .login-h{
+        text-align: center;
+    }
+    .signup-btn{
+        padding: 5px 30%;
+    }
+    .signup-h{
+        text-align: center;
     }
 }

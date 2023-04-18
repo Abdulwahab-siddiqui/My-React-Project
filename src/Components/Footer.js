@@ -134,7 +134,7 @@ const Footer = () => {
 
 
                                 </div>
-                                <a href='#' style={{ marginTop: '0px', marginLeft: '10px' }}>Info@yourdomain. com</a>
+                                <a href='#' style={{ marginTop: '0px', marginLeft: '10px' }}>Info@yourdo main. com</a>
                             </div>
 
                             {/* <a href='#'>suport@weddingsparklersnow.com</a>
@@ -153,7 +153,7 @@ const Footer = () => {
 
                 </div>
             </div>
-            <div className='last-footer' style={{  margin: '0px 0px',  backgroundColor: '#056fb0',  alignItems: 'center' }}>
+            <div className='last-footer'>
                 <p className='copy-p' style={{ color: 'white', marginBottom: "0px" }}> &copy; 2023 Air Filter Factory. All Right Reserved <span>
                   ( Created by Abdul Wahab siddiqui) </span> </p> 
                 <img src={cards}></img>

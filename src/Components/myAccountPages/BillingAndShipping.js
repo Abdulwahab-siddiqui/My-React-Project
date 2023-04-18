@@ -49,7 +49,7 @@ const BillingAndShipping = () => {
 
                     <div style={{ width: '48%' }}>
 
-                      <select name="state" style={{ width: '100%', padding: "10px 0px", border: 'solid 1px #8080805e;', borderRadius: "5px" }}  >
+                      <select name="state" style={{ width: '100%', padding: "10px 0px", border: 'solid 1px #8080805e', borderRadius: "5px" }}  >
                         <option value disabled hidden>Select State</option>
                         <option value="volvo">Alabama</option>
                         <option value="saab">Alaska</option>
@@ -136,7 +136,7 @@ const BillingAndShipping = () => {
 
                     <div style={{ width: '48%' }}>
 
-                      <select name="state" style={{ width: '100%', padding: "10px 0px", border: 'solid 1px #8080805e;', borderRadius: "5px" }}  >
+                      <select name="state" style={{ width: '100%', padding: "10px 0px", border: 'solid 1px #8080805e', borderRadius: "5px" }}  >
                         <option value disabled hidden>Select State</option>
                         <option value="volvo">Alabama</option>
                         <option value="saab">Alaska</option>
@@ -194,7 +194,7 @@ const BillingAndShipping = () => {
 
                   <div className="form-group">
                     <label>Expiration:</label>
-                    <input type="date" className="form-control" placeholder="Company Name(optioanl):" style={{marginBottom:'20px'}} />
+                    <input type="date" className="form-control" placeholder="Company Name(optioanl):" style={{ marginBottom: '20px' }} />
                     <input type="number" className="form-control" placeholder="Security Code:" />
                   </div>
 
@@ -217,7 +217,7 @@ const BillingAndShipping = () => {
 
                     <div style={{ width: '48%' }}>
 
-                      <select name="state" style={{ width: '100%', padding: "10px 0px", border: 'solid 1px #8080805e;', borderRadius: "5px" }}  >
+                      <select name="state" style={{ width: '100%', padding: "10px 0px", border: 'solid 1px #8080805e', borderRadius: "5px" }}  >
                         <option value disabled hidden>Select State</option>
                         <option value="volvo">Alabama</option>
                         <option value="saab">Alaska</option>
@@ -261,7 +261,7 @@ const BillingAndShipping = () => {
 
               <MyAccountNavLinks />
 
-              <div className='col-md-9 Billing-Addresses-main_container' style={{ padding: '0px 40px',  }}>
+              <div className='col-md-9 Billing-Addresses-main_container' style={{ padding: '0px 40px', }}>
                 <div className='Billing-Addresses-container' >
                   <h1>Billing Addresses</h1>
                   <button className='BillingAndShipping-btn btn' type="button" data-toggle="modal" data-target="#exampleModal">
@@ -283,10 +283,10 @@ const BillingAndShipping = () => {
           </div>
         </div>
       </div>
-      
-       {/* ///////////////////////////////////////////////// footer//////////////////////////////////////// */}
-       <Footer/>
-      </>
+
+      {/* ///////////////////////////////////////////////// footer//////////////////////////////////////// */}
+      <Footer />
+    </>
 
 
   )
